@@ -22,6 +22,7 @@ def agregarNegocio(nombre,categoria,estado):
     valorid = len(negocios)
     negocios.append({'Id':valorid, 'Nombre':nombre,'Categoria':categoria,'Estado':estado})
     print(negocios)
+    print(f'Se a agregado el negocio: {nombre}\r\nEn la categoria: {categoria}\r\nEn el estado: {estado}')
     #Se debe agregar un valor a la lista
 
 
